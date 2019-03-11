@@ -10,7 +10,7 @@ To use the platform:
 
 *Download and install [Postman](https://www.getpostman.com/)
 *Download [../creative-platform.postman_collection.json](creative-platform.postman_collection.json) and open it in Postman.
-![](../images/instructions-1.png)
+![](/images/instructions-1.png)
 *On the left, select the app you want to use, e.g. style-transfer-mosaic
 ![](../images/instructions-2.png)
 *Go to body
