@@ -11,17 +11,17 @@ To use the platform:
 * Download and install [Postman](https://www.getpostman.com/)
 * Download [../creative-platform.postman_collection.json](creative-platform.postman_collection.json) and open it in Postman.
 
-![Instructions-1](/images/instructions-1.png)
+![Instructions-1](/images/instructions-1.png?raw=true)
 
 * On the left, select the app you want to use, e.g. style-transfer-mosaic
 
-![Instructions-2](/images/instructions-2.png)
+![Instructions-2](/images/instructions-2.png?raw=true)
 
 * Go to body
 * Next to image, click and select the image you wish to submit to the app
 * Click Send
 
-![Instructions-3](/images/instructions-3.png)
+![Instructions-3](/images/instructions-3.png?raw=true)
 
 To run your own implementation of the models on Google Cloud Platform's Kubernetes Engine, follow the steps below.
 
