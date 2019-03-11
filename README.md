@@ -10,13 +10,13 @@ To use the platform:
 
 * Download and install [Postman](https://www.getpostman.com/)
 * Download [../creative-platform.postman_collection.json](creative-platform.postman_collection.json) and open it in Postman.
-![](/images/instructions-1.png)
+![Instructions-1](/images/instructions-1.png)
 * On the left, select the app you want to use, e.g. style-transfer-mosaic
-![](../images/instructions-2.png)
+![Instructions-2](/images/instructions-2.png)
 * Go to body
 * Next to image, click and select the image you wish to submit to the app
 * Click Send
-![](../images/instructions-3.png)
+![Instructions-3](/images/instructions-3.png)
 
 To run your own implementation of the models on Google Cloud Platform's Kubernetes Engine, follow the steps below.
 
@@ -36,7 +36,7 @@ If you wish to create an API for use with the platform, you can use [this framew
 The framework mentioned above was used the create the Docker image of the Image Net Classifier.
 From here on out, we will assume that any Docker images of interest are already APIs and available on DockerHub or GitHub.
 
-###Start your Kubernetes cluster
+### Start your Kubernetes cluster
 
 Open your Google Cloud Platform Console and go to Kubernetes Engine.
 
