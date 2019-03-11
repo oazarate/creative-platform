@@ -1,0 +1,220 @@
+{
+	"info": {
+		"_postman_id": "ea502a6a-4f3f-4510-823e-7df6f0391a33",
+		"name": "creative-platform",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "style-stransfer-mosaic",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": ""
+						},
+						{
+							"key": "model",
+							"value": "mosaic",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.222.177.196:5000/model/predict?model=mosaic",
+					"protocol": "http",
+					"host": [
+						"35",
+						"222",
+						"177",
+						"196"
+					],
+					"port": "5000",
+					"path": [
+						"model",
+						"predict"
+					],
+					"query": [
+						{
+							"key": "model",
+							"value": "mosaic"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "image-caption",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": ""
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.192.19.247/predict",
+					"protocol": "http",
+					"host": [
+						"35",
+						"192",
+						"19",
+						"247"
+					],
+					"path": [
+						"predict"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "style-transfer-candy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": ""
+						},
+						{
+							"key": "model",
+							"value": "mosaic",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.222.177.196:5000/model/predict?model=candy",
+					"protocol": "http",
+					"host": [
+						"35",
+						"222",
+						"177",
+						"196"
+					],
+					"port": "5000",
+					"path": [
+						"model",
+						"predict"
+					],
+					"query": [
+						{
+							"key": "model",
+							"value": "candy"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "style-transfer-rain-princess",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": ""
+						},
+						{
+							"key": "model",
+							"value": "mosaic",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.222.177.196:5000/model/predict?model=rain_princess",
+					"protocol": "http",
+					"host": [
+						"35",
+						"222",
+						"177",
+						"196"
+					],
+					"port": "5000",
+					"path": [
+						"model",
+						"predict"
+					],
+					"query": [
+						{
+							"key": "model",
+							"value": "rain_princess"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "style-transfer-udnie",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": ""
+						},
+						{
+							"key": "model",
+							"value": "mosaic",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.222.177.196:5000/model/predict?model=udnie",
+					"protocol": "http",
+					"host": [
+						"35",
+						"222",
+						"177",
+						"196"
+					],
+					"port": "5000",
+					"path": [
+						"model",
+						"predict"
+					],
+					"query": [
+						{
+							"key": "model",
+							"value": "udnie"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
