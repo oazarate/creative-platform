@@ -57,6 +57,8 @@ We will be running the following models in our platform:
 
 * [IBM MAX-Fast-Neural-Style-Transfer](https://github.com/IBM/MAX-Fast-Neural-Style-Transfer)
 
+* [IBM MAX-Image-Completer](https://github.com/IBM/MAX-Image-Completer)
+
 To deploy the Image Net classifier, run
 
 ```
@@ -86,7 +88,7 @@ kubectl apply -f https://raw.githubusercontent.com/IBM/MAX-Fast-Neural-Style-Tra
 
 ```
 
-However, as before, the app is only available locally. In this case, we create a service that exposes it
+However, as before, the app is only available locally. In this case, we create a service called `my-service` that exposes it
 
 ```
 kubectl expose deployment max-fast-neural-style-transfer --type=LoadBalancer --name=my-service
