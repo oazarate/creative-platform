@@ -4,18 +4,18 @@ _Note: This repo draws material directly from this [Medium article](https://medi
 
 _These APIs will only be running from March 11th, 2019 to March 22nd, 2019, or until compute credits are depleted._
 
-##Using the Platform
+## Using the Platform
 
 To use the platform:
 
-*Download and install [Postman](https://www.getpostman.com/)
-*Download [../creative-platform.postman_collection.json](creative-platform.postman_collection.json) and open it in Postman.
+* Download and install [Postman](https://www.getpostman.com/)
+* Download [../creative-platform.postman_collection.json](creative-platform.postman_collection.json) and open it in Postman.
 ![](/images/instructions-1.png)
-*On the left, select the app you want to use, e.g. style-transfer-mosaic
+* On the left, select the app you want to use, e.g. style-transfer-mosaic
 ![](../images/instructions-2.png)
-*Go to body
-*Next to image, click and select the image you wish to submit to the app
-*Click Send
+* Go to body
+* Next to image, click and select the image you wish to submit to the app
+* Click Send
 ![](../images/instructions-3.png)
 
 To run your own implementation of the models on Google Cloud Platform's Kubernetes Engine, follow the steps below.
@@ -26,8 +26,8 @@ To run your own implementation of the models on Google Cloud Platform's Kubernet
 
 If you do not have accounts with these services, create them. You will need compute credits for Google Cloud Platform.
 
-*Google Cloud Platform account
-*DockerHub account
+* [Google Cloud Platform account](https://cloud.google.com/)
+* [Docker Hub account](https://hub.docker.com/)
 
 ### Creating the APIs
 
@@ -48,9 +48,9 @@ Open the cloud shell from the console.
 
 We will be running the following models in our platform:
 
-*[Image Net Classifier](https://medium.com/analytics-vidhya/deploy-your-first-deep-learning-model-on-kubernetes-with-python-keras-flask-and-docker-575dc07d9e76) As implemented by Gus Cavanaugh and Adrian Rosebrock
+* [Image Net Classifier](https://medium.com/analytics-vidhya/deploy-your-first-deep-learning-model-on-kubernetes-with-python-keras-flask-and-docker-575dc07d9e76) As implemented by Gus Cavanaugh and Adrian Rosebrock
 
-*[IBM MAX-Fast-Neural-Style-Transfer](https://github.com/IBM/MAX-Fast-Neural-Style-Transfer)
+* [IBM MAX-Fast-Neural-Style-Transfer](https://github.com/IBM/MAX-Fast-Neural-Style-Transfer)
 
 To deploy the Image Net classifier, run
 
