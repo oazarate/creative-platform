@@ -215,6 +215,45 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "image-completer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": ""
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.222.172.4:5000/model/predict?mask_type=center",
+					"protocol": "http",
+					"host": [
+						"35",
+						"222",
+						"172",
+						"4"
+					],
+					"port": "5000",
+					"path": [
+						"model",
+						"predict"
+					],
+					"query": [
+						{
+							"key": "mask_type",
+							"value": "center"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
