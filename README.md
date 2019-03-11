@@ -36,7 +36,7 @@ If you do not have accounts with these services, create them. You will need comp
 
 ### Creating the APIs
 
-If you wish to create an API for use with the platform, you can use [this framework](https://medium.com/analytics-vidhya/deploy-your-first-deep-learning-model-on-kubernetes-with-python-keras-flask-and-docker-575dc07d9e76) to transform your model into an API, though the author notes it may not be ideal for production.
+If you wish to create an API for use with the platform, you can use [this framework](https://medium.com/analytics-vidhya/deploy-your-first-deep-learning-model-on-kubernetes-with-python-keras-flask-and-docker-575dc07d9e76) to transform your model into an API, though the author notes it may not be ideal for production. The code for the app has been cloned to `code/keras-app`.
 
 The framework mentioned above was used the create the Docker image of the Image Net Classifier.
 From here on out, we will assume that any Docker images of interest are already APIs and available on DockerHub or GitHub.
