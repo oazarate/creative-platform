@@ -23,6 +23,8 @@ To use the platform:
 
 ![Instructions-3](images/instructions-3.PNG?raw=true)
 
+* If you get an error indicating that Postman could not get a response, try resizing the image to be smaller
+
 To run your own implementation of the models on Google Cloud Platform's Kubernetes Engine, follow the steps below.
 
 ## Creating the Platform
